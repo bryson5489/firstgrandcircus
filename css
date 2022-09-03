@@ -1,0 +1,135 @@
+nav {
+  background-color: #f2f2f2;
+  margin-top: -30px;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-top: 15px;
+}
+
+.span-1 {
+  color: #20a8b4;
+}
+
+.google {
+  /*  this is the class that I used to put the extra grand circus logo up. will need to take down later to make sure that the new image can be put in cleanly.😂*/
+  padding-top: 50px;
+  padding-right: 200px;
+}
+
+.top-links {
+  margin-left: 50%;
+  word-spacing: 1ch;
+}
+a {
+  text-decoration: none;
+  font-size: x-large;
+}
+a:active {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.top-links {
+  padding-bottom: 15px;
+}
+
+a:hover {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline solid blue;
+}
+
+.span-2 {
+  color: orangered;
+}
+
+.heading {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 30px;
+}
+
+/* 
+h1::after {
+  content: "TOP";
+  background-color: yellow;
+  color: black;
+  font-size: 16px;
+  font-size: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: 0;
+  left: 220px;
+}
+ */
+.learn-more {
+  position: relative;
+  left: 15px;
+  background-color: #20a8b4;
+  color: white;
+  height: 45px;
+  width: 90px;
+  font-family: sans-serif;
+  outline: auto;
+  outline-style: round;
+  border-radius: 15px;
+}
+
+.learn-code {
+  font-size: large;
+}
+whole-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-us {
+  background-color: #20a8b4;
+  color: white;
+  height: 40px;
+  width: 90px;
+  font-family: sans-serif;
+  outline: auto;
+  outline-style: round;
+  border-radius: 15px;
+  margin-left: 0.25in;
+  float: none;
+}
+
+article {
+  position: relative;
+  top: 200px;
+  margin-left: 50px;
+}
+
+p {
+  position: relative;
+  left: 15px;
+}
+
+article {
+  float: left;
+}
+
+.heading:first-child() {
+  color: #20a8b4;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: #ff5c0f;
+}
+
+.image {
+  float: right;
+  margin-left: 70px;
+  margin-top: 150px;
+}
